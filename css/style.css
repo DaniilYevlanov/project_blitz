@@ -1,0 +1,19 @@
+body {
+    padding: 2px;
+}
+button {
+    height: 20px;
+    width: 40px; 
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-container {
+    display: flex;
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    padding: 20px;
+}
