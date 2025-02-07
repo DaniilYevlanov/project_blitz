@@ -1,0 +1,30 @@
+.fpi_logo{
+    border-radius: 50px;
+}
+body {
+    background: linear-gradient( to bottom,45deg, #ccc1bf, #feb47b);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav-button{
+border-radius: 25px;
+width: 100px;
+height: 35px;
+}
