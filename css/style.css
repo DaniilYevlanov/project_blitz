@@ -1,19 +1,76 @@
+fpi_logo{
+    border-radius: 50px;
+}
 body {
-    padding: 2px;
+    background: linear-gradient( to bottom,45deg, #ccc1bf, #feb47b);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
-button {
-    height: 20px;
-    width: 40px; 
+.nav-button{
+border-radius: 25px;
+width: 100px;
+height: 35px;
 }
-nav {
+
+.footer {
+    width: 100%;
+    background-color: var(--secondary-text-color);
+    color: #E7E9FC;
+    padding: 40px 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
-.header-container {
+  .footer-left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+
+ .moon {
+    flex-shrink: 0;
+}
+.moon img {
+ max-width: 100%;
+ height: auto;
+}
+ .container-footer {
     display: flex;
-    padding: 20px;
-}
-.footer{
-    display: flex;
-    padding: 20px;
-}
+    width: 20000px;
+    align-items: center;
+ }
+ .Cytata {
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    font-family: "Caveat", cursive;
+ }
+ 
+ .footer-text {
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 0;
+    max-width: 264px;
+    font-weight: bolder;
+ }
+
+ .footer-social {
+    margin-right: 80px;
+ }
