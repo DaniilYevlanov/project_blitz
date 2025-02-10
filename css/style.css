@@ -32,12 +32,12 @@ height: 35px;
 .footer {
     width: 100%;
     background-color: var(--secondary-text-color);
-    color: #E7E9FC;
+    color: #ff0000;
     padding: 40px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 -2px 5px rgba(255, 0, 0, 0.2);
 }
   .footer-left-side {
   display: flex;
@@ -45,13 +45,6 @@ height: 35px;
   gap: 10px;
  }
 
- .moon {
-    flex-shrink: 0;
-}
-.moon img {
- max-width: 100%;
- height: auto;
-}
  .container-footer {
     display: flex;
     width: 20000px;
@@ -59,7 +52,7 @@ height: 35px;
  }
  .Cytata {
     color: rgb(255, 0, 0);
-    font-size: 15px;
+    font-size: 25px;
     font-family: "Caveat", cursive;
  }
  
